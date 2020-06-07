@@ -1,0 +1,53 @@
+.sky-spiderweb {
+    position: relative;
+}
+
+.sky-spiderweb .sdot {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+}
+
+.sky-spiderweb .sdot.sm {
+    width: 10px;
+    height: 10px;
+}
+
+.sky-spiderweb .sdot.md {
+    width: 15px;
+    height: 15px;
+}
+
+.sky-spiderweb .sdot.lg {
+    width: 20px;
+    height: 20px;
+}
+
+.sky-spiderweb .sdot.circle { border-radius: 50%; } 
+.sky-spiderweb .sdot.black { background-color: #000; }
+.sky-spiderweb .sdot.sky { background-color: #0d8baf; }
+
+.sky-spiderweb .debug .sdot {
+    outline: 1px solid skyblue;
+}
+
+.sky-spiderweb .debug .sky-spiderweb-line {
+    outline: 1px solid skyblue;
+}
+
+.sky-spiderweb .sky-spiderweb-line {
+    position: absolute;
+    background-color: transparent !important;
+    height: 1px;
+}
+
+.sky-spiderweb .sky-spiderweb-line .scolor {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    background: skyblue;
+    z-index: 1;
+}

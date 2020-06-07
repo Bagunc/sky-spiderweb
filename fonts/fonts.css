@@ -1,0 +1,11 @@
+/* Ligth Font */
+@font-face {
+    font-family: FontLight;
+    src: url("../fonts/font-light.otf");
+}
+
+/* Extra Bold Font */
+@font-face {
+    font-family: FontExtraBold;
+    src: url("../fonts/font-extrabold.otf");
+}
